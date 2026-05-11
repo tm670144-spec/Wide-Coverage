@@ -1,0 +1,201 @@
+*{
+     font-family: "Poppins", sans-serif;
+     margin: 0;
+     padding: 0;
+     outline: none;
+     box-sizing: border-box;
+}
+
+.div-pai{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-left{
+    display: inline-block;
+    width: 40%;
+    margin-left: 42px;
+}
+
+header{
+   
+    width: 100%;
+
+}
+
+
+a{
+    width: 79px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+button{
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #4cb538;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    margin-left: 32px;
+    margin-top: 47px;
+    margin-left: 42px;
+    cursor: pointer;
+}
+
+button:active{
+    opacity: 0.2;
+}
+
+
+
+img{
+    width: 100%;
+    height: 467px;
+}
+
+.container-right{
+    display: inline-block;
+    width: 50%;
+    margin-left: 60px;
+    
+}
+
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    margin-bottom: 47px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 55px;
+
+}
+
+.botao-cta{
+    font-weight: 500;
+    font-size: 18px;
+    width: 112px;
+    height: 27px;
+    color: #6fbf44;
+    margin-left: 0;
+}
+
+.botao-cta:active{
+    opacity: 0.2;
+}
+
+
+@media screen and (max-width: 900px){
+    
+   .div-pai{
+    display: flex;
+    flex-direction: column;
+   }
+   
+    .container-right{
+    display: block;
+    margin: 0;
+    padding: 0 60px 0 40px;
+    width:auto;
+    height: auto;
+    position: static;
+    order: 1;
+    margin-top: 124px;
+    
+
+   }
+
+   .container-left{
+    width: 100%;
+    display: block;
+    margin: 0;
+    order: 2;
+   }
+   
+   header{
+    text-align: right;
+    padding: 25px 30px;
+    position: fixed;
+    top: 0;
+   }
+  
+   h1{
+        width: 100%;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+    .botao-cta{
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        width: auto;
+    }
+
+
+    button{
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 100%;
+        margin: 0;
+    }
+
+    img{
+        max-width: 90%;
+        height: auto;
+        margin: auto;
+        position: static;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    a{
+        display: none;
+    }
+
+    .botao-cta{
+        display: block;
+    }
+
+    
+}
